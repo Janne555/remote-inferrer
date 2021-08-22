@@ -8,3 +8,6 @@ check-installable-deps:
 
 install: check-deps check-installable-deps
 	pipenv install
+
+start:
+	python src/main.py
